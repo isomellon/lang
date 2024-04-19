@@ -1,0 +1,1073 @@
+# =======================
+#         Общее
+# =======================
+BUNGEE_SERVER_MOTD_TEXT:
+  - '               &6&lFixMine &7(1.8 - 1.17.1)'
+  - '        &a&lᐅ &fМы открылись! &c&lГлобальное &fобновление! &a&lᐊ'
+BUNGEE_SERVER_MOTD_HOVER:
+  - ' &a&lᐅ &fЗаходите поиграть к нам :3'
+
+BUNGEE_WHITELIST_SERVER_MOTD_TEXT:
+  - '               &6&lFixMine &7(1.8 - 1.17.1)'
+  - '             &e&lᐅ &cТехнические работы &e&lᐊ'
+BUNGEE_WHITELIST_SERVER_MOTD_HOVER:
+  - '&e&lᐅ &cНа сервере ведутся технические работы!'
+
+CORE_NOT_CONNECTED_MOTD:
+  - '              &6&lFixMine &7(1.8 - 1.17.1)'
+  - '      &b&lᐅ &cСоединение с игровым координатором &b&lᐊ'
+CORE_NOT_CONNECTED_HOVER:
+  - '&b&lᐅ &cИдет соединение с игровым координатором...'
+
+PLAYER_TAB_HEADER:
+  - ''
+  - '&e&l✰ &6&lFixMine &e&l✰&r'
+  - ''
+  - '&fОнлайн магазин:&r'
+  - '&eFixMine.me&r'
+  - ''
+  - '&7Список игроков:'
+PLAYER_TAB_FOOTER:
+  - ''
+  - ' &fОбщий онлайн &8→ &d%online% '
+  - ''
+  - ' &7Вы находитесь на сервере &b%server% '
+  - ' &ewww.fixmine.me'
+
+WELCOME_MESSAGE:
+  - ''
+  - '§8§k§l|§r§1  §fДобро пожаловать на §6§lFixMine Network  §8§k§l|'
+  - ''
+  - ' §8▪ §fЗдесь вы можете §aхорошо §fпровести своё время.'
+  - ' §8▪ §fВещи в инвентаре помогут вам разобраться!'
+  - ''
+
+WHITELIST_KICK_MESSAGE:
+  - '§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  - '§1'
+  - '§cСервер находится на стадии обновления!'
+  - '§2'
+  - '§3'
+  - '§aНа данный момент сервер находится на стадии обновления'
+  - '§fПодробную информацию Вы сможете получить в наших социальных сетях'
+  - '§4'
+  - '§2https://vk.com/fixmine'
+  - '§2https://disc.fixmine.ru'
+  - '§5'
+  - '§8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+
+LVL_UP_TITLE: '§a§l§kX§c§l УРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
+LVL_UP_SUBTITLE: '§fВы достигли §b%new_level% §fуровня'
+LVL_UP_MESSAGE:
+  - ''
+  - ''
+  - '          §b§kX§6§l НОВЫЙ УРОВЕНЬ §b§kX'
+  - '  §a▸ §fВы достигли §2%new_level% §fуровня!'
+  - '  §a▸ §fДо следующего необходимо §e%total_exp% §fопыта'
+  - ''
+
+BACK_TITLE: '§cНазад'
+BACK_LINES:
+  - ''
+  - '§c▶ Нажмите, чтобы вернуться в предыдущее меню.'
+
+# =======================
+#         Игрок
+# =======================
+NO_PERM: '§6§lFixMine §8:: §cОшибка, у Вас недостаточно прав!'
+MINIMAL_GROUP: '§6§lFixMine §8:: §cОшибка, для выполнения данной команды необходим статус %group% §cили выше!'
+NO_PLAYER: '§6§lFixMine §8:: §fДанный игрок ранее не играл на нашем сервере'
+PLAYER_OFFLINE: '§6§lFixMine §8:: §cОшибка, игрок оффлайн!'
+PLAYER_BYPASS: '§6§lFixMine §8:: §cОшибка, Вы не можете наказать данного игрока'
+ALREADY_CONNECTION: '§6§lFixMine §8:: §cОшибка, вы уже находитесь на этом сервере!'
+SERVER_NOT_FOUND: '§6§lFixMine §8:: §cОшибка, данный сервер не подключен к Core!'
+VK_URL: '§8▪ §fВКонтакте - §ahttps://vk.com/id%vkId%'
+NO_VK: '§8▪ §fВКонтакте - §cНе привязан'
+NO_ENOUGH_MONEY: '§6§lFixMine §8:: §cОшибка, у Вас недостаточно средств!'
+
+INFO:
+  - '§6§lFixMine §8:: §fИнформация о игроке %player%'
+  - '§8▪ §fУникальный ID - §c%id%'
+  - '§8▪ §fПривилегия - %group%'
+  - '§8▪ §fКрышки - §a%plazma%'
+  - '§8▪ §fУровень - §2%level%'
+  - '§8▪ §fЯзык - §c%language%'
+  - '§8▪ §fEXP - §e%exp%§8/§c%max_exp%'
+INFO_ONLINE:
+  - ''
+  - '§8▪ §fНа данный момент - §aOnline'
+  - '§8▪ §fТекущий сервер - §2%server%'
+  - '§8▪ §fВерсия - §2%version%'
+INFO_OFFLINE:
+  - ''
+  - '§8▪ §fНа данный момент - §cOffline'
+  - '§8▪ §fПоследний сервер - §2%server%'
+  - '§8▪ §fБыл в сети §c%date% назад'
+
+# =======================
+#         Авторизация
+# =======================
+USE_LOGIN_SERVER: '§6§lFixMine §8:: §cОшибка, данная команда на этом сервере запрещена!'
+UNREGISTER_SUCCESS: '§6§lFixMine §8:: §fВы успешно разрегистрировали игрока'
+PASSWORD_NOT_VALID: '§6§lFixMine §8:: §cОшибка, Выбранный пароль короткий, либо слишком длинный'
+PASSWORD_NOT_MATCH: '§6§lFixMine §8:: §cОшибка, указанные пароли не совпадают!'
+USE_ONLY_AUTH: '§6§lFixMine §8:: §cОшибка, Вы еще не авторизированы!'
+PLAYER_NOT_AUTH: '§6§lFixMine §8:: §cОшибка, Вы не вошли в аккаунт'
+PLAYER_NOT_REGISTER: '§6§lFixMine §8:: §cОшибка, Вы не зарегестрированы'
+PLAYER_WRONG_PASSWORD: '§6§lFixMine §8:: §cОшибка, неверный пароль!'
+PLAYER_SUCCESS_CHANGE_PASSWORD: '§6§lFixMine §8:: §7Ваш пароль был успешно изменён!'
+PLAYER_ALREADY_AUTH: '§6§lFixMine §8:: §cОшибка, Вы уже авторизированы, приятной игры!'
+PLAYER_SUCCESS_AUTH: '§6§lFixMine §8:: §fТы успешно зарегистрировался!'
+CHANGE_PASSWORD_USAGE: '§6§lFixMine §8:: §fИспользуйте - §e/changepassword <старый_пароль> <новый_пароль>'
+UNREGISTER_USAGE: '§6§lFixMine §8:: §fИспользуйте - §e/unregister <игрок>'
+REGISTER_USAGE:
+  - '§8§m--------------§6§lАвторизация§8§m--------------'
+  - ''
+  - '§7Приветствуем Вас на §6§lFixMine§7!'
+  - ''
+  - '§e§l> §fИспользуйте - §e/register §8[§fПароль§8] §8[§fПовтор пароля§8]'
+  - ''
+  - '§8§m----------------------------------------'
+LOGIN_USAGE:
+  - '§8§m--------------§6§lАвторизация§8§m--------------'
+  - ''
+  - '§7Приветствуем Вас на §6§lFixMine§7!'
+  - ''
+  - '§e§l> §fИспользуйте - §e/login §8[§fПароль§8]'
+  - ''
+  - '§8§m----------------------------------------'
+ACCOUNT_NOT_LINKED_VK:
+  - ''
+  - '§c§l⚠ Внимание! §fУ Вас не привязана страница §bВКонтакте §fк своему аккаунту.'
+  - 'Сделав это, вы сможете управлять аккаунтом.'
+  - 'Если вас взломают, то вы легко сможете восстановить свой аккаунт!'
+  - 'Сделайте это прямо сейчас, написав в сообщения группы: §evk.com/fixmine'
+  - 'Команда - §6!привязать [ник] [пароль]'
+
+# =======================
+#         Команды
+# =======================
+ALERT_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/alert <сообщение>'
+BROADCAST_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/broadcast <сообщение>'
+FIND_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/find <ник>'
+INFO_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/info <ник>'
+IP_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/ip <ник игрока>'
+
+SERVER_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/server <сервер>'
+SEND_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/send <ник> <сервер>'
+CRASH_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/crash <ник>'
+
+FIND_MESSAGE: '§6§lFixMine §8:: %player% §fнаходится на сервере §e%server%'
+MONEY_MESSAGE: '§6§lFixMine §8:: §fВаш баланс: §6%plazma%'
+PING_YOURSELF_MESSAGE: '§6§lFixMine §8:: §fВаш пинг §a%ping% §fms'
+PING_OTHER_MESSAGE: '§6§lFixMine §8:: §fПинг игрока %player% §f- §a%ping% §fms'
+
+WATCH_HELP: '§6§lFixMine §8:: §fИспользуйте - §e/watch <ник>'
+WATCH_ERROR_SPECTATE_YOURSELF: '§6§lFixMine §8:: §cОшибка, вы не можете следить за собой!'
+WATCH_ERROR_NOT_GAME_ARENA: '§6§lFixMine §8:: §cОшибка, игровая арена еще не запущена, подождите ее начала!'
+WATCH_ERROR_GAME_ARENA_NOT_STARTED: '§6§lFixMine §8:: §cОшибка, игровая арена еще не запущена, подождите ее начала!'
+
+GLOBAL_ONLINE: '§6§lFixMine §8:: §fОбщий онлайн сервера - §e%online%'
+ONLINE_BY_PREFIX: '§6§lFixMine §8:: §fОбщий серверов по префиксу §e%prefix% - §e%online%'
+ONLINE_BY_SERVER: '§6§lFixMine §8:: §fОнлайн сервера §e%prefix% - §e%online%'
+
+HUB_NOT_FOUND: '§6§lFixMine §8:: §cОшибка, на данный момент нет доступных Hub серверов!'
+LOBBY_NOT_FOUND: '§6§lFixMine §8:: §cОшибка, данный режим не имеет лобби серверов!'
+
+# =======================
+#         Выбор языка
+# =======================
+LANGUAGE_SELECT_MENU_TITLE: 'Выбор игрового языка'
+LANG_SELECT: '§6§lFixMine §8:: §fВаш язык изменен на §cРусский!'
+
+# =======================
+#         Оповещения
+# =======================
+BUNGEE_ANNOUNCER_DONATE_MESSAGE:
+  - ''
+  - '§6▪ §fХочешь получить какую-то §9привилегию §fна сервере?'
+  - '§e▪ §fЗаходи в §2§nменю с донатом§f, и смотри §b§nуникальные§f возможности донатеров'
+  - ''
+  - ' §8§l↪ §7(Открыть меню) §8§l↩'
+  - ''
+BUNGEE_ANNOUNCER_DONATE_HOVER: '§fНажми сюда, чтобы открыть меню доната'
+
+BUNGEE_ANNOUNCER_IP_COPY_MESSAGE:
+  - ''
+  - '§4▪ §fРасскажите о нашем сервере своим §cдрузьям'
+  - '§e▪ §fНаш IP: §6mc.fixmine.me'
+  - '§b▪ §fЭтим вы поможете развиваться §eсерверу §fнамного §bбыстрее'
+  - ''
+  - ' §8§l↪ §7(Скопировать IP) §8§l↩'
+  - ''
+BUNGEE_ANNOUNCER_IP_COPY_HOVER: '§9Кликни, чтобы скопировать IP'
+
+# =======================
+#         Essentials
+# =======================
+TELEPORT_MESSAGE:
+  - '§6§lFixMine §8:: §fСписок доступных команд:'
+  - ' §7Телепортироваться к игроку - §e/teleport <ник игрока>'
+  - ' §7Телепортировать одного игрока к другому - §e/teleport <игрок> <игрок>'
+  - ' §7Телепортация по координатам - §e/teleport <x> <y> <z>'
+  - ' §7Телепортация игрока по координатам - §e/teleport <ник игрока> <x> <y> <z>'
+TELEPORT_SUCCESS_TELEPORT: '§6§lFixMine §8:: §fВы были §aуспешно §fтелепортированы к игроку %player%'
+
+AUCTION_HELP_MESSAGE:
+  - '§6§lFixMine §8:: §fСписок доступных команд:'
+  - ' §7Выставить на продажу предмет - §e/auction sell <цена>'
+  - ' §7Открыть меню аукциона - §e/auction menu/list'
+AUCTION_SELL_FORMAT: '§6§lAuction §8:: §fИспользуйте - §e/auction sell <цена>'
+AUCTION_SELL_ERROR_NOT_NUMBER: '§6§lAuction §8:: §cОшибка, указана неверная цена товара!'
+AUCTION_SELL_ERROR_NOT_ITEM: '§6§lAuction §8:: §cОшибка, у Вас нет никакого предмета в руках!'
+AUCTION_SELL_SUCCESS_ADD_ITEM: '§6§lAuction §8:: §fВы успешно выставили товар в руках на аукцион за §a%money%'
+
+WEATHER_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/weather <thunder/storm/sun>'
+WEATHER_SUCCESS_CHANGE_SKY: '§6§lFixMine §8:: §fПогода в мире §e%world% §fбыла успешно изменена!'
+BACKWARD_ERROR_NOT_LOCATION: '§6§lFixMine §8:: §cОшибка, у Вас нет предыдущей точки телепортации!'
+CLEAR_SUCCESS_RESET: '§6§lFixMine §8:: §fВы были полностью очищены от вещей и эффектов!'
+DAY_SUCCESS_SET_TIME: '§6§lFixMine §8:: §fВ мире §e%world% §fбыло установено §6дневное §fвремя суток'
+NIGHT_SUCCESS_SET_TIME: '§6§lFixMine §8:: §fВ мире §e%world% §fбыло установено §9ночное §fвремя суток'
+EXT_MESSAGE: '§6§lFixMine §8:: §fВы §aуспешно §fпотушили себя!'
+FEED_MESSAGE: '§6§lFixMine §8:: §fВы §aуспешно §fнакормили себя!'
+FLY_MESSAGE: '§6§lFixMine §8:: §fРазрешение на полёт: %fly%'
+HEAL_MESSAGE: '§6§lFixMine §8:: §fВаше здоровье §aуспешно §fвосстановлено!'
+
+# =======================
+#         Модуль чата
+# =======================
+STAFF_CHAT_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/staffchat <сообщение>'
+STAFF_CHAT_ERROR_DUPLICATE_ON: '§6§lFixMine §8:: §cЧат персонала для Вас уже включен!'
+STAFF_CHAT_ERROR_DUPLICATE_OFF: '§6§lFixMine §8:: §cЧат персонала для Вас уже выключен!'
+STAFF_CHAT_SUCCESS_ON: '§6§lFixMine §8:: §fЧат персонала был успешно включен!'
+STAFF_CHAT_SUCCESS_OFF: '§6§lFixMine §8:: §fЧат персонала был успешно выключен!'
+STAFF_CHAT_OFF: '§6§lFixMine §8:: §cЧат персонала отключен, Вы не можете сюда писать!'
+DONATE_CHAT_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/donatechat <сообщение>'
+DONATE_CHAT_ERROR_DUPLICATE_ON: '§6§lFixMine §8:: §cЧат донатеров для Вас уже включен!'
+DONATE_CHAT_ERROR_DUPLICATE_OFF: '§6§lFixMine §8:: §cЧат донатеров для Вас уже выключен!'
+DONATE_CHAT_SUCCESS_ON: '§6§lFixMine §8:: §fЧат донатеров был успешно включен!'
+DONATE_CHAT_SUCCESS_OFF: '§6§lFixMine §8:: §fЧат донатеров был успешно выключен!'
+DONATE_CHAT_OFF: '§6§lFixMine §8:: §cЧат донатеров отключен, Вы не можете сюда писать!'
+QA_CHAT_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/qachat <сообщение>'
+QA_CHAT_ERROR_DUPLICATE_ON: '§6§lFixMine §8:: §cЧат QA для Вас уже включен!'
+QA_CHAT_ERROR_DUPLICATE_OFF: '§6§lFixMine §8:: §cЧат QA для Вас уже выключен!'
+QA_CHAT_SUCCESS_ON: '§6§lFixMine §8:: §fЧат QA был успешно включен!'
+QA_CHAT_SUCCESS_OFF: '§6§lFixMine §8:: §fЧат QA был успешно выключен!'
+QA_CHAT_OFF: '§6§lFixMine §8:: §cЧат QA отключен, Вы не можете сюда писать!'
+CHAT_COOLDOWN: '§6§lFixMine §8:: §cОшибка, до повторного использования данной команды подождите еще %time%'
+
+MESSAGE_CHAT_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/message <ник> <сообщение>'
+REPLY_CHAT_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/reply <сообщение>'
+IGNORE_CHAT_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/ignore <ник>'
+CHAT_ERROR_MESSAGE_YOURSELF: '§6§lFixMine §8:: §cОшибка, Вы не можете написать самому себе!'
+CHAT_ERROR_MESSAGE_OFF: '§6§lFixMine §8:: §cОшибка, Данный игрок отключил личные сообщения!'
+CHAT_ERROR_MESSAGE_IGNORE: '§6§lFixMine §8:: §cОшибка, Данный игрок игнорирует Вас!'
+CHAT_ERROR_MESSAGE_PLAYER_OFFLINE: '§6§lFixMine §8:: §cОшибка, получатель сообщения не найдены!'
+CHAT_ERROR_MESSAGE_NO_REPLY: '§6§lFixMine §8:: §cОшибка, Вам еще не писали личных сообщений'
+CHAT_ERROR_IGNORE_YOURSELF: '§6§lFixMine §8:: §cОшибка, Вы не можете игнорировать сами себя!'
+CHAT_SUCCESS_IGNORE_ALL_ON: '"§6§lFixMine §8:: §fТеперь игроки могут отправлять вам личные сообщения.'
+CHAT_SUCCESS_IGNORE_ALL_OFF: '§6§lFixMine §8:: §fТеперь игроки не могут отправлять вам личные сообщения.'
+
+CHAT_HOVER:
+  - '§7Статистика %player%§7:'
+  - ' §8| §7Уровень: §2%level%'
+  - ' §8| §7EXP: §e%exp%§8/§c%max_exp%'
+  - ''
+  - '§e▸ Нажмите, чтобы отправить личное сообщение'
+
+# =======================
+#         Голограммы
+# =======================
+HOLOGRAM_CASES_LINE_1: '§6§lМистический сундук'
+HOLOGRAM_CASES_LINE_2: '§7Ожидает своего пробуждения'
+HOLOGRAM_CASES_LINE_3: '§7от Великого мага'
+
+HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_1: '%game_name%'
+HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_3: '§cДанный режим недоступен'
+HOLOGRAM_HUB_GAME_SELECT_NPC_AVAILABLE_LINE_3: '§eНажмите, чтобы подключиться'
+HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_4: '§7Сейчас играют §f%players% §7игроков'
+
+HOLOGRAM_LOBBY_MODE_NPC_LINE_1: '§e§oНажмите, чтобы перейти'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_2: '§7Сейчас играет: §f%online%'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_3: '§7Серверов: §f%servers%'
+
+# =======================
+#         Модуль стримов
+# =======================
+STREAM_ADD_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/stream add <ссылка>'
+STREAM_ADD_ERROR_ALREADY_STREAMING: '§6§lFixMine §8:: §cОшибка, у Вас уже есть запущенный стрим!'
+STREAM_ADD_ERROR_UNKNOWN_STREAM_URL: '§6§lFixMine §8:: §cОшибка, ссылка на стрим введена неверно!'
+STREAM_ADD_ERROR_ENOUGH_VIEWERS: '§6§lFixMine §8:: §cОшибка, для добавления трансляции количество зрителей должно достигать минимум 10 человек!'
+STREAM_ADD_SUCCESS_STREAM: '§6§lFixMine §8:: §fВаш стрим под ссылкой §e%stream% §fбыл успешно добавлен!'
+STREAM_ADD_ERROR_NOT_STREAMING: '§6§lFixMine §8:: §cОшибка, запущенных стримов не найдено!'
+STREAM_REMOVE_SUCCESS_STREAM: '§6§lFixMine §8:: §fВы успешно удалили свой стрим!'
+STREAM_HELP_FORMAT:
+  - '§2§lStreams §8:: §fСписок доступных команд:'
+  - ' §8- §7Добавить стрим - §e/stream add <ссылка>'
+  - ' §8- §7Удалить стрим - §e/stream remove'
+  - ' §8- §7Посмотреть доступные стримы - §e/streams'
+
+STREAM_NEW_ANNOUNCE:
+  - '§8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+  - ''
+  - ' §8| %streamer% §fзапустил трансляцию на %platform%'
+  - ' §8| §fНазвание: §e%stream_title%'
+  - ' §8| §fЗрителей: §e§a%viewers%'
+  - ''
+  - ' §8§l↪ §7(Перейти на трансляцию) §8§l↩'
+  - ''
+  - '§8━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+
+STREAMS_ANNOUNCE:
+  - ''
+  - ' §8| §c§lВНИМАНИЕ! §fНа сервере сейчас идет §b%count% §fпрямых трансляций!'
+  - ''
+  - ' §8§l↪ §7(Открыть список трансляций) §8§l↩'
+STREAM_UPDATE_REMOVED: '§6§lFixMine §8:: §fВаш стрим §e%stream_title% §fбыл удален, так как он больше не актуален!'
+
+# =======================
+#         Скорборды
+# =======================
+HUB_BOARD_TITLE:
+  - '§6§lFixMine'
+HUB_BOARD_LINES:
+  - '§1'
+  - ' &7Информация:'
+  - '  §fСтатус: %status%'
+  - '  §fГильдия: §b%guild%'
+  - '  §fКрышки: §2%plazma%'
+  - '§2'
+  - ' §7Серверный уровень:'
+  - '  &fУровень: §b%level%*'
+  - '  §f⤷ %level_bar% §c%level_exp_percent%'
+  - '§3'
+  - ' §7Сервер:'
+  - '  §fОбщий онлайн: §a%online%'
+  - '  §fЛобби: §a%lobby%'
+  - '§4'
+  - '§ewww.fixmine.me'
+
+SKYWARS_BOARD_TITLE:
+  - '§6§lSKYWARS'
+  - '§e§lSKYWARS'
+  - '§f§lSKYWARS'
+  - '§e§lSKYWARS'
+SKYWARS_BOARD_LINES:
+  - '§1'
+  - ' §fSkywars уровень: §7%level%* (%exp_percent%)'
+  - '§2'
+  - ' §7Экономика:'
+  - '  §fМонеты: §e%money%'
+  - '  §fКрышки: §2%plazma%'
+  - '§3'
+  - ' §7Игровая статистика:'
+  - '  §fСуммарно убийств: §a%kills%'
+  - '  §fСуммарно побед: §a%wins%'
+  - '  §fКолодец душ: §b%souls%'
+  - '§5'
+  - '§ewww.fixmine.me'
+
+DUELS_BOARD_TITLE: 
+  - '§6§lDUELS'
+  - '§e§lDUELS'
+  - '§f§lDUELS'
+  - '§e§lDUELS'
+DUELS_BOARD_LINES:
+  - '§1'
+  - ' §fDuels Ранг: %rank%'
+  - ' §fМонеты: §a%money%'
+  - '§2'
+  - ' &7Игровая статистика:'
+  - '  §fПобеды BattleRush: §b%battlerush_wins%'
+  - '  §fПобеды Build UHC: §b%builduhc_wins%'
+  - '  §fПобеды GApple: §b%gapple_wins%'
+  - '  §fПобеды Sumo: §b%sumo_wins%'
+  - '  §fПобеды MLGRush: §b%mlgrush_wins%'
+  - '  §fПобеды NoDebuff: §b%nodebuff_wins%'
+  - '  §fПобеды Classic: §b%classic_wins%'
+  - '  §fПобеды Spleef: §b%spleef_wins%'
+  - '§a'
+  - '§ewww.fixmine.me'
+
+ARCADE_BOARD_TITLE:
+  - '§6§lARCADES'
+  - '§e§lARCADES'
+  - '§f§lARCADES'
+  - '§e§lARCADES'
+ARCADE_BOARD_LINES:
+  - '§1'
+  - ' §7Экономика:'
+  - '  §fМонеты: §e%coins%'
+  - '  §fКрышки: §2%plazma%'
+  - '§2'
+  - ' §7Игровая статистика:'
+  - '  §fВсего побед: &a%total_wins%'
+  - '§3'
+  - '§ewww.fixmine.me'
+
+BEDWARS_BOARD_TITLE:
+  - '§6§lBEDWARS'
+  - '§e§lBEDWARS'
+  - '§f§lBEDWARS'
+  - '§e§lBEDWARS'
+BEDWARS_BOARD_LINES:
+  - '§1'
+  - ' §fBedwars Уровень: §7%level%* (%exp_percent%)'
+  - '§2'
+  - ' §7Экономика:'
+  - '  §fМонеты: §e%money%'
+  - '  §fКрышки: §6%golds%'
+  - '§3'
+  - ' §7Игровая статистика:'
+  - '  §fПобеды solo: §e%solo_wins%'
+  - '  §fПобеды team: §e%team_wins%'
+  - '  §fПобеды doubles: §e%doubles_wins%'
+  - '  §fПобеды ranked: §e%ranked_wins%'
+  - '§4'
+  - '§ewww.fixmine.me'
+
+MURDERMYSTERY_BOARD_TITLE:
+  - '§6§lMURDER MYSTERY'
+  - '§e§lMURDER MYSTERY'
+  - '§f§lMURDER MYSTERY'
+  - '§e§lMURDER MYSTERY'
+MURDERMYSTERY_BOARD_LINES:
+  - '§1'
+  - ' §fУровень: §7%level%* (%exp_percent%)'
+  - '§2'
+  - ' §7Экономика:'
+  - '  §fМонеты: §e%money%'
+  - '  §fКрышки: §6%plazma%'
+  - '§3'
+  - ' §7Игровая статистика:'
+  - '  §fСуммарно побед: §c%wins%'
+  - '§4'
+  - ' §fСервер: &a%server%'
+  - '§5'
+  - '§ewww.fixmine.me'
+
+WOOLWARS_BOARD_TITLE:
+  - '§6§lWOOL WARS'
+WOOLWARS_BOARD_LINES:
+  - '§1'
+  - ' §fУровень: §7%level%*'
+  - '§2'
+  - ' §7Экономика:'
+  - '  §fМонеты: §e%coins%'
+  - '  §fКрышки: §6%plazma%'
+  - '§3'
+  - ' §7Игровая статистика:'
+  - '  §fСуммарно побед: §c%total_wins%'
+  - '§4'
+  - ' §fОнлайн проекта: &a%online%'
+  - ' §fСервер: &a%server_name%'
+  - '§5'
+  - '§ewww.fixmine.me'
+
+SPEEDBUILDERS_BOARD_TITLE:
+  - '§6§lSPEED BUILDERS'
+SPEEDBUILDERS_BOARD_LINES:
+  - '§1'
+  - ' §fУровень: §7%level%*'
+  - '§2'
+  - ' §7Экономика:'
+  - '  §fМонеты: §e%coins%'
+  - '  §fКрышки: §6%plazma%'
+  - '§3'
+  - ' §7Игровая статистика:'
+  - '  §fСуммарно побед: §a%total_wins%'
+  - '§4'
+  - ' §fОнлайн проекта: &a%online%'
+  - ' §fСервер: &a%server_name%'
+  - '§5'
+  - '§ewww.fixmine.me'
+
+# =======================
+#         Меню
+# =======================
+MENU_TITLE: 'Игровое меню'
+
+MENU_DUELS_NAVIGATION_TITLE: '§eDuels §6§lBETA'
+MENU_DUELS_NAVIGATION_LINES:
+  - '§8Быстрые сражения'
+  - ''
+  - '§7Сражения с игроками один на один'
+  - '§7Хотел узнать кто круче? Сразись'
+  - '§7с любым игроком и выясни это!'
+  - ''
+  - '§7Список доступных подрежимов:'
+  - '§8▪ §fBattleRush'
+  - '§8▪ §fBuild UHC'
+  - '§8▪ §fGApple'
+  - '§8▪ §fSumo'
+  - '§8▪ §fMLGRush'
+  - '§8▪ §fNoDebuff'
+  - '§8▪ §fClassic'
+  - '§8▪ §fSpleef'
+  - ''
+MENU_BEDWARS_NAVIGATION_TITLE: '§cBedwars'
+MENU_BEDWARS_NAVIGATION_LINES:
+  - '§8Дожили, защищать кровать...'
+  - ''
+  - '§7Как насчёт сыграть в мини-игру'
+  - '§7для улучшения командной игры?'
+  - '§7Играйте втроём, четвером'
+  - '§7А может Вы у нас соло игрок?'
+  - '§7Ну, думаю, вам стоит заглянуть!'
+  - ''
+  - '§7Список доступных подрежимов:'
+  - '§8▪ §fBedwars Solo (1x4)'
+  - '§8▪ §fBedwars Doubles (2x4)'
+  - '§8▪ §fBedwars Ranked (4x4)'
+  - '§8▪ §fBedwars Team (3x4)'
+  - '§8▪ §fBedwars Duels (1x1)'
+  - ''
+MENU_SKYWARS_NAVIGATION_TITLE: '§bSkywars'
+MENU_SKYWARS_NAVIGATION_LINES:
+  - '§8Воздушные войны'
+  - ''
+  - '§7Вы появляетесь на острове,'
+  - '§7и ваша цель скинуть/убить всех'
+  - '§7игроков на вашей карте.'
+  - '§7У вас нет права на ошибку, 1 ошибка'
+  - '§7и вы летите вниз.'
+  - ''
+  - '§7Список доступых подрежимов:'
+  - '§8▪ §fSkywars Solo'
+  - '§8▪ §fSkywars Team'
+  - ''
+MENU_WOOLWARS_NAVIGATION_TITLE: '§aWoolWars'
+MENU_WOOLWARS_NAVIGATION_LINES:
+  - '§8Сражения за контроль над шерстью'
+  - ''
+  - '§7Вы появляетесь на карте, где'
+  - '§7есть 2 команды, ваша задача'
+  - '§7убить всех игроков и'
+  - '§7захвотить контроль над шерстью в'
+  - '§7центре карты'
+  - ''
+  - '§7Список доступых подрежимов:'
+  - '§8▪ §fWoolWars 4X2'
+  - '§8▪ §fWoolWars 8X2'
+  - ''
+MENU_SPB_NAVIGATION_TITLE: '§2SpeedBuilders'
+MENU_SPB_NAVIGATION_LINES:
+  - '§8Повторите постройку быстрее всех!'
+  - ''
+  - '§7Ваша задача - быстрее всех'
+  - '§7в точности повторить постройку'
+  - ''
+MENU_ARCADE_NAVIGATION_TITLE: '§2Arcade Games §6§lBETA'
+MENU_ARCADE_NAVIGATION_LINES:
+  - '§8Аркадные игры'
+  - ''
+  - '§7Аркадные игры - это сборник'
+  - '§7маленьких режимов от большого сервера,'
+  - '§7где Вы сможете максимально развлечься'
+  - '§7с друзьями, рандомными игроками или в пати.'
+  - ''
+  - '§7Список доступых подрежимов:'
+  - '§8▪ §fTntRun'
+  - '§8▪ §fWoolWars'
+  - '§8▪ §fSpeed Builders'
+  - '§8▪ §fParkour'
+  - '§8▪ §fHot Potato §e§lNEW'
+  - ''
+MENU_SPACE_BATTLE_NAVIGATION_TITLE: '§2SpaceBattle §6§lBETA'
+MENU_SPACE_BATTLE_NAVIGATION_LINES:
+  - '§8Космические сражения'
+  - ''
+  - '§7Хочешь сражений на космических кораблях?'
+  - '§7А может на внеземной станции?'
+  - '§7Здесь собрано только самое лучшее'
+  - '§7из лучших существующих PVP режимов'
+  - '§7специально для Вас.'
+  - ''
+MENU_MURDER_MYSTERY_NAVIGATION_TITLE: '§cMurderMystery §6§lBETA'
+MENU_MURDER_MYSTERY_NAVIGATION_LINES:
+  - '§8Настольная мафия'
+  - ''
+  - '§7Помните, как в детстве играли с'
+  - '§7друзьями в настольную мафию, строя'
+  - '§7догадки о том, кто же среди нас'
+  - '§7злодей? А может, окунемся в ностальгию?'
+  - ''
+  - '§7Список доступых подрежимов:'
+  - '§8▪ §fMurderMystery Solo'
+  - '§8▪ §fMurderMystery Doubles'
+  - '§8▪ §7§mMurderMystery Crazy'
+  - ''
+MENU_PROFILE_TITLE: '§eПрофиль игрока %player%'
+MENU_PROFILE_LINES:
+  - '§8Ваш профиль'
+  - ''
+  - '§7Смотрите свою статистику, используйте'
+  - '§7донат-меню, и много'
+  - '§7других плюшек'
+  - ''
+  - '§e▸ Нажми, чтобы открыть профиль.'
+MENU_DONATE_TITLE: '§6Привилегии §8§k§l|'
+MENU_DONATE_LINES:
+  - '§8Список донат привилегий'
+  - ''
+  - '§7Все возможности привилегий'
+  - '§7расписаны в этом разделе.'
+  - ''
+  - '§e▸ Нажми, чтобы открыть меню'
+MENU_MAIN_LOBBY_TITLE: '§eГлавное лобби §8§k§l|'
+MENU_MAIN_LOBBY_LINES:
+  - '§8Вернуться в лобби сервера'
+  - ''
+  - '§7Лобби сервера, встречайтесь'
+  - '§7с друзьями, веселитесь'
+  - ''
+  - '§e▸ Нажми, для телепотации в главное лобби'
+
+# =======================
+#         Профиль
+# =======================
+PROFILE_MENU_TITLE: 'Профиль'
+PROFILE_MENU_BASE_TITLE: '§bОбщая информация §8§k§l|'
+PROFILE_MENU_BASE_LINES:
+  - ''
+  - '§8▪ §fСтатус: %status%'
+  - '§8▪ §fКрышки: §2%plazma%'
+  - ''
+  - '§8▪ §fГильдия: %guild%'
+  - '§8▪ §fДрузья: §c%friends%§f/§a%friendsMax%'
+  - ''
+  - '§8▪ §fУровень: §b%level%* §7(%level_percent%%)'
+  - ''
+  - '§8▪ §fБоевой пропуск: %spacepass%'
+  - ''
+PROFILE_MENU_SKIN_HISTORY_TITLE: '§bИстория скинов §8§k§l|'
+PROFILE_MENU_SKIN_HISTORY_LINES:
+  - ''
+  - '§7Вы можете просматривать историю'
+  - '§7установленных когда-либо скинов'
+  - ''
+  - '§e▸ Нажми, чтобы открыть историю скинов'
+PROFILE_MENU_SETTINGS_TITLE: '§eЛичные настройки §8§k§l|'
+PROFILE_MENU_SETTINGS_LINES:
+  - ''
+  - '§7У каждого игрока есть возможность'
+  - '§7изменять настройки правитности и другие'
+  - '§7настройки игрового процесса'
+  - ''
+  - '§c§lУпс! §cПохоже, что этот раздел ещё на стадии тестирования :('
+  - '§cЕсли вы хотите присоединиться к нашей команде тестеров,'
+  - '§cтогда подавайте заявку на наш форум f.fixmine.me'
+  - ''
+PROFILE_MENU_STATS_TITLE: '§eСтатистика §8§k§l|'
+PROFILE_MENU_STATS_LINES:
+  - ''
+  - '§7В данном разделе можно увидеть'
+  - '§7подробную игровую статистику'
+  - '§7Вашего аккаунта'
+  - ''
+  - '§e▸ Нажми, чтобы посмотреть'
+PROFILE_MENU_DONATEMENU_TITLE: '§2Донат-меню §8§k§l|'
+PROFILE_MENU_DONATEMENU_LINES:
+  - '§8Плюшки для донатеров'
+  - ''
+  - '§7Дополнительные возмонжости для донатеров:'
+  - ''
+  - '§8▪ §fСообщения при входе'
+  - '§8▪ §fБыстрые сообщения'
+  - '§8▪ §fСообщения при выходе'
+  - '§8▪ §fСмена цвета префикса'
+  - ''
+  - '§e▸ Нажми, чтобы открыть меню'
+PROFILE_MENU_LANGUAGE_TITLE: '§2Выбор языка §8§k§l|'
+PROFILE_MENU_LANGUAGE_LINES:
+  - '§7Cмена дефолтного языка на сервере'
+  - '§7Перевод и языки будут дополняться!'
+  - ''
+  - '§7На данный момент доступны:'
+  - ' §8▪ §fРусский §8(%ru_translated_percent%)'
+  - ' §8▪ §fEnglish §8(50%)'
+  - ' §8▪ §fУкраїнський §8(15%)'
+  - ''
+  - '§c§lУпс! §cПохоже, что этот раздел ещё на стадии тестирования :('
+  - '§cЕсли вы хотите присоединиться к нашей команде тестеров,'
+  - '§cтогда подавайте заявку на наш форум f.fixmine.me'
+  - ''
+PROFILE_MENU_BOOSTER_TITLE: '§eУскоритель §8§k§l|'
+PROFILE_MENU_BOOSTER_LINES:
+  - '§8Персональный бустер'
+  - ''
+  - '§7Активировать персональный'
+  - '§7ускоритель для ускоренного'
+  - '§7получение опыта и монет'
+  - ''
+  - '§c§lУпс! §cПохоже, что этот раздел ещё на стадии тестирования :('
+  - '§cЕсли вы хотите присоединиться к нашей команде тестеров,'
+  - '§cтогда подавайте заявку на наш форум f.fixmine.me'
+  - ''
+PROFILE_MENU_LEVEL_TITLE: '§bМежсерверный уровень §8§k§l|'
+PROFILE_MENU_LEVEL_LINES:
+  - ''
+  - '§7Играя на сервере, вы получаете'
+  - '§7игровой опыт, который необходим'
+  - '§7для поднятия вашего уровня'
+  - '§7и получения особых наград.'
+  - ''
+  - '§8▪ §fВаш уровень: §2%level%* §7(%level_progress%%)'
+  - '§8▪ §fДо §c%level_nextlvl%* §fуровня необходимо §3%level_exp_required% XP §7(%level_percent%%)'
+  - ''
+PROFILE_MENU_REWARD_TITLE: '§eНаграды §8§k§l|'
+PROFILE_MENU_REWARD_LINES:
+  - ''
+  - '§7Регулярные бонусы с монетами,'
+  - '§7опытом и сундуками для всех!'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть меню наград.'
+PROFILE_MENU_GAMES_HISTORY_TITLE: '§2История последних игр §8§k§l|'
+PROFILE_MENU_GAMES_HISTORY_LINES:
+  - ''
+  - '§7Здесь Вы можете посмотреть'
+  - '§7последние §f100 §7сыгранных игр за'
+  - '§7последнее время по каждому из режимов'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть.'
+PROFILE_MENU_STREAMS_TITLE: '§aПрямые трансляции §8§k§l|'
+PROFILE_MENU_STREAMS_LINES:
+  - ''
+  - '§7Наши стримеры часто проводят прямые'
+  - '§7у нас на проекте, и чтобы не упустить'
+  - '§7такие события, следите за активными'
+  - '§7стримами в данном разделе'
+  - ''
+  - '§e▸ Нажмите, чтобы посмотреть.'
+# =======================
+#         Меню донатера
+# =======================
+DONATE_MENU_TITLE: 'Меню донатера'
+DONATE_MENU_FASTMESSAGE_TITLE: '§6§lБыстрые сообщения'
+DONATE_MENU_FASTMESSAGE_LINES:
+  - '§7Покажи всем какой ты сегодня'
+  - '§7используя эти быстрые сообщения.'
+  - ''
+  - '§8▪ §fДоступно от §e§lSTAR §7и выше'
+  - ''
+  - '§7Для быстрого открытия меню используйте'
+  - '§7команду §a/fm §7или §a/fastmessage'
+  - ''
+  - '§e▸ Нажми, чтобы открыть.'
+DONATE_MENU_JOINER_TITLE: '§6§lСообщения при входе'
+DONATE_MENU_JOINER_LINES:
+  - '§7Станьте реально крутым донатером'
+  - '§7у которого при входе на сервер'
+  - '§7своё личное сообщение'
+  - ''
+  - '§8▪ §fДоступно от §e§lSTAR'
+  - ''
+  - '§e▸ Нажми, чтобы настроить сообщение'
+DONATE_MENU_QUITER_TITLE: '§6§lСообщения о выходе'
+DONATE_MENU_QUITER_LINES:
+  - '§7Станьте реально крутым донатером'
+  - '§7у которого при выходе с сервера'
+  - '§7своё личное сообщение'
+  - ''
+  - '§8▪ §fДоступно от §e§lSTAR'
+  - ''
+  - '§e▸ Нажми, чтобы настроить сообщение'
+DONATE_MENU_PREFIX_TITLE: '§6§lСмена префикса'
+DONATE_MENU_PREFIX_LINES:
+  - '§7Измени цвет своего префикса в табе и чате'
+  - ''
+  - '§8▪ §fДоступно от §2§lUNIVERSE'
+  - ''
+  - '§e▸ Нажми, чтобы изменить цвет префикса'
+
+
+# =======================
+#         Тайтлы к меню
+# =======================
+# Fastmessage
+FASTMESSAGE_MENU_TITLE: '§8Донат меню ▸ Быстрые сообщения'
+
+# Joiner
+JOINER_MENU_TITLE: '§8Донат меню ▸ Сообщения при входе'
+JOINER_SELECT_MESSAGE: '§6§lFixMine §8:: §fВы выбрали §eСообщение #%id% §fиз категории %category%'
+JOINER_BUY_MESSAGE: '§6§lFixMine §8:: §fВы приобрели §eСообщение #%id% §fиз категории %category% §fза §2%cost% золота'
+
+# Quit
+QUITER_MENU_TITLE: '§8Донат меню ▸ Сообщения при выходе'
+QUITER_SELECT_MESSAGE: '§6§lFixMine §8:: §fВы выбрали §eСообщение #%id% §fиз категории %category%'
+QUITER_BUY_MESSAGE: '§6§lFixMine §8:: §fВы приобрели §eСообщение #%id% §fиз категории %category% §fза §2%cost% золота'
+
+# =======================
+#         Меню статусов
+# =======================
+DONATE_MENU_MAIN_TITLE: 'Профиль ▸ Донат'
+DONATE_MENU_PLAZMA_TITLE: 'Донат ▸ Крышки'
+STATUS_MENU_TITLE: 'Донат'
+
+DONATE_MENU_STATUS_TITLE: '§bПривилегии §8§k§l|'
+DONATE_MENU_STATUS_LINES:
+  - ''
+  - '§7Привилегии - это статусы, несущие'
+  - '§7в себе §cдополнительные §7возможности'
+  - '§7для игрока в виде команд, бустеров и улучшений'
+  - ''
+  - '§e▸ Нажмите, чтобы узнать подробнее'
+DONATE_MENU_MONEY_TITLE: '§6Крышки §8§k§l|'
+DONATE_MENU_MONEY_LINES:
+  - ''
+  - '§6Крышки §7- самая ценная игровая валюта'
+  - '§7за крышки Вы сможете купить уникальные вещи, привилегии,'
+  - '§7улучшения, прокачки, кейсы и многое другое,'
+  - '§7недоступное за стандартную валюту'
+  - ''
+  - '§e▸ Нажмите, чтобы узнать подробнее'
+DONATE_MENU_PAYMENT_TITLE: '§2Варианты оплаты §8§k§l|'
+DONATE_MENU_PAYMENT_LINES:
+  - ''
+  - '§7Мы используем платежную систему: §afree-kassa.ru'
+  - '§7В способы оплаты доната входят'
+  - '§7самые разные варианты, например:'
+  - ''
+  - '§8▸ §fБанковские карты, Qiwi, Ю-MONEY,'
+  - '§8▸ §fSteam Pay, LiteCoin, DogeCoin,'
+  - '§8▸ §fБилайн, Мегафон, Теле2, МТС и другие'
+  - ''
+  - '§e▸ Нажми, чтобы получить ссылку на сайт'
+DONATE_MENU_SURCHARGE_TITLE: '§9Система доплаты §8§k§l|'
+DONATE_MENU_SURCHARGE_LINES:
+  - ''
+  - '§7На сервере работает система доплаты.'
+  - '§7Если у Вас есть уже привилегия, то'
+  - '§7цена следующей будет рассчитываться по формуле'
+  - '§7[цена следующей] - [цена вашей]'
+  - ''
+  - ' §fНапример, если у Вас привилегия §a§lCOSMO§a,'
+  - ' §fто стоимость следующей привилегии'
+  - ' §fбудет составлять §f5 §6золота §8(15 - 10 = 5)'
+
+DONATE_BUY_MESSAGE:
+  - '§e'
+  - '§8◦ §fПокупка на сайте §8▸ §6www.fixmine.me'
+  - '§9'
+
+# =======================
+#         Меню привилегий
+# =======================
+DONATE_TITLE: 'Донат ▸ Привилегии'
+DONATE_STATUS_TITLE: '§7Информация'
+DONATE_STATUS_LINE:
+  - '§fВсего привилегий: §c§l5'
+  - ''
+  - '§7Все деньги полученные с покупок'
+  - '§7доната, идут на развитие проекта:'
+  - ''
+  - '§a↪ §fОплата качественного оборудования'
+  - '   §a●●●●§7●●●●●● §8:: §a40%'
+  - '§a↪ §fПоддержание онлайна (Развитие сервера рекламой)'
+  - '   §a●●●§7●●●●●●● §8:: §a30%'
+  - '§a↪ §fРазработка режимов и обновление текущих'
+  - '   §a●●●●§7●●●●●● §8:: §a30%'
+
+DONATE_DESCRIPTION_STAR_TITLE: '§7Привилегия %star% §7- §2%cost% рублей'
+DONATE_DESCRIPTION_STAR_LINES:
+  - ''
+  - ' §7Покупая донат на нашем проекте'
+  - ' §7Вы поддерживате сервер и помогаете в его развитии'
+  - ' §7Донат выдаётся навсегда'
+  - ''
+  - ' §8◾ §fСтоимость: §2§l%cost% рублей'
+  - ' §6↪ §fПокупка на сайте: §2fixmine.me'
+  - ''
+  - '§e▸ Нажми, посмотреть возможности'
+
+DONATE_DESCRIPTION_COMSO_TITLE: '§7Привилегия %cosmo% §7- §2%cost% рублей'
+DONATE_DESCRIPTION_COMSO_LINES:
+  - ''
+  - ' §7Покупая донат на нашем проекте'
+  - ' §7Вы поддерживате сервер и помогаете в его развитии'
+  - ' §7Донат выдаётся навсегда'
+  - ''
+  - ' §8◾ §fСтоимость: §2§l%cost% рублей'
+  - ' §6↪ §fПокупка на сайте: §2fixmine.me'
+  - ''
+  - '§e▸ Нажми, посмотреть возможности'
+
+DONATE_DESCRIPTION_GALAXY_TITLE: '§7Привилегия %galaxy% §7- §2%cost% рублей'
+DONATE_DESCRIPTION_GALAXY_LINES:
+  - ''
+  - ' §7Покупая донат на нашем проекте'
+  - ' §7Вы поддерживате сервер и помогаете в его развитии'
+  - ' §7Донат выдаётся навсегда'
+  - ''
+  - ' §8◾ §fСтоимость: §2§l%cost% рублей'
+  - ' §6↪ §fПокупка на сайте: §2fixmine.me'
+  - ''
+  - '§e▸ Нажми, посмотреть возможности'
+
+DONATE_DESCRIPTION_UNIVERSE_TITLE: '§7Привилегия %universe% §7- §2%cost% рублей'
+DONATE_DESCRIPTION_UNIVERSE_LINES:
+  - ''
+  - ' §7Покупая донат на нашем проекте'
+  - ' §7Вы поддерживате сервер и помогаете в его развитии'
+  - ' §7Донат выдаётся навсегда'
+  - ''
+  - ' §8◾ §fСтоимость: §2§l%cost% рублей'
+  - ' §6↪ §fПокупка на сайте: §2fixmine.me'
+  - ''
+  - '§e▸ Нажми, посмотреть возможности'
+
+DONATE_DESCRIPTION_LUXURY_TITLE: '§7Привилегия %luxury% §7- §2%cost% рублей'
+DONATE_DESCRIPTION_LUXURY_LINES:
+  - ''
+  - ' §7Покупая донат на нашем проекте'
+  - ' §7Вы поддерживате сервер и помогаете в его развитии'
+  - ' §7Донат выдаётся навсегда'
+  - ''
+  - ' §8◾ §fСтоимость: §2§l%cost% рублей'
+  - ' §6↪ §fПокупка на сайте: §2fixmine.me'
+  - ''
+  - '§e▸ Нажми, посмотреть возможности'
+
+# =======================
+#         Модуль друзей
+# =======================
+FRIENDS_ADD_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/f add <ник>'
+FRIENDS_REMOVE_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/f remove <ник>'
+FRIENDS_ACCEPT_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/f accept <ник>'
+FRIENDS_DENY_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/f deny <ник>'
+FRIENDS_TP_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/f tp <ник>'
+FRIEND_HELP:
+  - '§2§lДрузья §8:: §fПомощь по командам:'
+  - ' §7Добавить игрока в друзья - §e/friends add <ник>'
+  - ' §7Удалить игрока из друзей - §e/friends remove <ник>'
+  - ' §7Принять запрос в друзья - §e/friends accept <ник>'
+  - ' §7Отклонить запрос в друзья - §e/friends deny <ник>'
+  - ' §7Посмотреть список своих друзей - §e/friends list'
+  - ' §7Посмотреть список запросов в друзья - §e/friends requests'
+  - ' §7Телепортация на сервер друга - §e/friends tp <ник>'
+FRIEND_ADD_ERROR_DUPLICATE_REQUEST: '§2§lДрузья §8:: §fДанный игрок уже приглашал Вас в друзья'
+FRIEND_ADD_ERROR_HAS_REQUEST: '§2§lДрузья §8:: §cОшибка, Вы уже отправляли запрос в друзья данному игроку...'
+FRIEND_ADD_ERROR_IS_FRIEND: '§2§lДрузья §8:: §cОшибка, Вы уже являетесь друзьями!'
+FRIEND_ADD_ERROR_YOURSELF_AS_FRIEND: '§2§lДрузья §8:: §cОшибка, Вы не можете отправить заявку в друзья самому себе'
+FRIEND_ADD_SUCCESS_SEND: '§2§lДрузья §8:: §fЗапрос в друзья отправлен игроку %player%'
+FRIEND_REMOVE_ERROR_HAS_FRIEND: '§2§lДрузья §8:: §cОшибка, данный игрок не является Вашим другом!'
+FRIEND_SUCCESS_REMOVE_FRIEND: '§2§lДрузья §8:: §fИгрок %player% §fбыл удален из вашего списка друзей'
+FRIENDS_DONT_HAVE_INVITES: '§2§lДрузья §8:: §fНа данный момент у Вас нет актуальных запросов в друзья!'
+FRIEND_LIST: "§2§lДрузья §8:: §fСписок Ваших друзей: §e(%count%)"
+FRIEND_LIST_NO_FRIENDS:
+  - "§cПростите, но список Ваших друзей пуст :("
+  - "§cПополните его, добавив их командой /friends add <ник игрока>"
+FRIEND_LIST_REQUESTS: "§e§lДрузья §8:: §fСписок актуальных запросов: §e(%count%)"
+FRIENDS_NEW_FRIEND: '§2§lДрузья §8:: §fПоздравляем! Вы стали друзьями с игроком %player%'
+FRIENDS_YOU_REJECTED_REQUEST: '§2§lДрузья §8:: §fВы отклонили запрос в друзья от игрока %player%'
+FRIENDS_REQUEST_REJECTED: '§2§lДрузья §8:: §fИгрок %player% §fотклонил Ваш запрос в друзья'
+FRIENDS_DONT_HAVE_INVITES_FROM: '§2§lДрузья §8:: §cОшибка, данный игрок не отправлял Вам приглашение на дружбу!'
+
+# =======================
+#         Меню гильдий
+# =======================
+NO_GUILD_HELP:
+  - '§6§lGuild §8:: §fПомощь по командам:'
+  - ' §7Создать гильдию - §e/guild create <название>'
+  - ' §7Принять запрос - §e/guild accept <ник игрока>'
+  - ' §7Отклонить запрос - §e/guild cancel <ник игрока>'
+  - ' §7Список приглашений - §e/guild requests'
+HAS_GUILD_MEMBER_HELP:
+  - '§6§lGuild §8:: §fПомощь по командам:'
+  - ' §7Меню гильдии - §e/guild menu'
+  - ' §7Чат гильдии - §e/guild chat <сообщение>'
+  - ' §7Пополнить казну гильдии крышками - §e/guild addcap <кол-во>'
+  - ' §7Улучшение гильдии - §e/guild shop'
+  - ' §7Участники гильдии - §e/guild members'
+  - ' §7Выйти из гильдии - §e/guild leave'
+HAS_GUILD_LEADER_HELP:
+  - '§6§lGuild §8:: §fПомощь по командам:'
+  - ' §7Меню гильдии - §e/guild menu'
+  - ' §7Отправить запрос - §e/guild invite <ник игрока>'
+  - ' §7Чат гильдии - §e/guild chat <сообщение>'
+  - ' §7Управление приветствием - §e/guild motd'
+  - ' §7Пополнить казну гильдии крышками - §e/guild addcap <кол-во>'
+  - ' §7Улучшение гильдии - §e/guild shop'
+  - ' §7Настройки гильдии - §e/guild settings'
+  - ' §7Кикнуть игрока с гильдии - §e/guild kick <ник игрока>'
+  - ' §7Удалить гильдию - §e/guild disband'
+GUILD_DONT_HAVE_INVITES: '§6§lGuild §8:: §fНа данный момент у Вас нет актуальных запросов в гильдию!'
+GUILD_LIST_REQUESTS: "§6§lGuild §8:: §fСписок актуальных запросов: §e(%count%)"
+
+# =======================
+#         Модуль компаний
+# =======================
+NO_PARTY_HELP:
+  - '§6§lParty §8:: §fПомощь по командам:'
+  - ' §7Встать в очередь ожидания - §e/party join'
+  - ' §7Открыть список желающих - §e/party open'
+  - ' §7Отправить запрос - §e/party invite <ник игрока>'
+  - ' §7Принять запрос - §e/party accept <ник игрока>'
+  - ' §7Отклонить запрос - §e/party cancel <ник игрока>'
+HAS_PARTY_HELP:
+  - '§6§lParty §8:: §fПомощь по командам:'
+  - ' §7Открыть список желающих - §e/party open'
+  - ' §7Отправить запрос - §e/party invite <ник игрока>'
+  - ' §7Чат группы - §e/party chat <сообщение>'
+  - ' §7Список игроков в группе - §e/party list'
+  - ' §7Удалить игрока из группы - §e/party kick <ник игрока>'
+  - ' §7Телепортировать группу на сервер - §e/party warp'
+  - ' §7Выйти из группы - §e/party leave'
+  - ' §7Удалить группу - §e/party disband'
+PARTY_ADD_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/party invite <ник игрока>'
+PARTY_REMOVE_FORMAT: '§6§lFixMine §8:: §fИспользуйте - §e/party remove <ник игрока>'
+PARTY_ADD_DUPLICATE: '§e§lParty §8:: §cОшибка, Вы не можете добавлять в компанию самого себя!'
+PARTY_ADD_IS_PARTY: '§e§lParty §8:: §cError, this player is already your PARTY!'
+PARTY_ADD_HAS_REQUEST: '§e§lParty §8:: §cError, you have already submitted a request to add this player as a party!'
+PARTY_ADD_SUCCESS_SENDER: '§e§lParty §8:: §fYou have successfully accepted a party request from %player%'
+PARTY_ADD_SUCCESS_MEMBER: '§e§lParty §8:: %player% §faccepted your application as a PARTY!'
+PARTY_SUCCESS_MEMBER: '§e§lParty §8:: %player% §foffers to become your PARTY!'
+PARTY_SUCCESS_SENDER: '§e§lParty §8:: §fYou have successfully submitted your application %player% §f, wait for his response!!!'
+PARTY_ALERT: '§e§lParty §8:: %player% §fприсоединился к группе'
+
+PARTY_MENU_LIST_TITLE: 'Список участников'
+PARTY_MENU_LIST_ONLINE_INFO:
+  - ''
+  - '§fОнлайн: §a%online%'
+  - '§fСервер: §c%server%'
+  - ''
+  - '§eНажмите, чтобы удалить из группы'
+SETTING_LOBBY_FLY_NAME: "§bПолет"
+SETTING_LOBBY_FLY_LORE:
+  - ""
+  - "§7С помощью этой штуки, "
+  - "§7вы сможете летать..."
+  - ""
+  - "§cДоступно от %minimal_group%"
+  - ""
+  - "§8Изменить статус, можно с"
+  - "§8помощью панели снизу."
+SETTING_LOBBY_CHAT_NAME: "§bЧат"
+SETTING_LOBBY_CHAT_LORE:
+  - ""
+  - "§7Надоели игроки в чате?"
+  - "§7- Отключите чат."
+  - ""
+  - "§8Изменить статус, можно с"
+  - "§8помощью панели снизу."
+SETTING_PLAYERS_VISIBLE_NAME: "§bИгроки"
+SETTING_PLAYERS_VISIBLE_LORE:
+  - ""
+  - "§7Ох уж эта косметика, эффекты"
+  - "§7звуки.. бррр.. Отключите всех"
+  - "§7игроков и их эффекты."
+  - ""
+  - "§8Изменить статус, можно с"
+  - "§8помощью панели снизу."
+SETTING_PRIVATE_MESSAGES_NAME: "§6Личные сообщения"
+SETTING_PRIVATE_MESSAGES_LORE:
+  - ""
+  - "§7Я интроверт, я экстраверт"
+  - "§7я два типа в одном"
+  - "§7На турниках, но после джека"
+  - "§7я два типа в одном"
+  - "§7я два типа в одном"
+  - "§7весь мой разум разделен"
+  - ""
+  - "§8Изменить статус, можно с"
+  - "§8помощью панели снизу."
